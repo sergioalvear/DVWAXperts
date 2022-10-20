@@ -12,8 +12,8 @@ spec:
       - name: dvwa
         image: public.ecr.aws/f9n2h3p5/dvwapub:<TAG>
         imagePullPolicy: "Always"
-        securityContext: allow
-          PrivilegeEscalation: false
+ #       securityContext: allow
+  #        PrivilegeEscalation: false
          
   selector:
     matchLabels:
